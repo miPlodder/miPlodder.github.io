@@ -213,7 +213,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background-color: #1f5297;
+  background: url("../img/filler.png") top center;
   background-size: cover;
 }
 
