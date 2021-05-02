@@ -8,12 +8,13 @@
 
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'sakshamhandu@gmail.com';
+  $link = 'https://script.google.com/macros/s/AKfycbx4XyuRxa4CHrNMe0ukYYxE8x_5y_m7LuA8xI2TWS20xnLqKi8Vyt9Qz1rUVaboQ7ms/exec';
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
-  }
+  //if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
+   // include( $php_email_form );
+  //} else {
+    //die( 'Unable to load the "PHP Email Form" Library!');
+ // }
 
   $contact = new PHP_Email_Form;
   $contact->ajax = true;
